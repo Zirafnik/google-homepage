@@ -9,7 +9,7 @@ body {
 
     font-size: 13px;
     line-height: 24px;
-    margin-top: 15px;
+    margin-top: 16px;
 }
 
 .footer {
@@ -52,11 +52,20 @@ body {
     justify-content: center;
     align-items: flex-end;
 
-    height: 233px;
+    height: 202px;
+    padding-bottom: 27px;
+}
+
+#google-logo {
+    padding-top: 109px;
+}
+
+#images-link {
+    padding-left: 15px;
 }
 
 .list-item {
-    padding-left: 16px;
+    padding-left: 18px;
     color: rgba(0,0,0,0.87);
 }
 
@@ -73,7 +82,7 @@ body {
     padding: 2px 12px 2px 12px;
     background-color:#4387fd;
     border: 1px solid #4285f4;
-    margin-right: 35px;
+    margin-right: 30px;
 }
 
 #sign-in-link {
@@ -110,4 +119,52 @@ a:hover {
 
 #footer2 {
     margin-right: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchbox {
+    height: 44px;
+    width: 582px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    margin: 0 auto;
+    background: white;
+}
+
+#searchbox:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.button {
+    height: 34px;
+    border: 1px solid #c6c6c6;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    background-image: linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    padding: 0 16px;
+    margin: 11px 3px;
+
+}
+
+.button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+    cursor: pointer;
+}
+
+.buttons-div {
+    padding-top: 17px;
 }
