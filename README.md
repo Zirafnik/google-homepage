@@ -8,4 +8,6 @@ To get the correct colors and some other values, I used the developer inspection
 
 The project went quite smoothly, the only thing I struggled a bit with, was the search-icon in the text input. I managed to get it right, with relative positioning. I also then used relative positioning to move the text in input form.
 
+I also learned how to make links look a different way, depending on what is happening with them and that you can pair that with classes and ids.
+
 All other positioning was done with flexbox, padding and margins.
