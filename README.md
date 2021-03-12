@@ -1,5 +1,7 @@
 # Google Homepage project
 
+https://zirafnik.github.io/google-homepage/
+
 This project is a part of The Odin Project curriculum. The goal of the project is to make a visual clone of the google homepage.
 
 I believe I managed to create a pixel perfect copy of the current design. All the links and images also have correct decorations.
